@@ -8,6 +8,16 @@ body {
 
 ul {
     list-style: none;
+    padding: 0 10px;
+    text-align: left;
+}
+
+li {
+    padding: 5px;
+}
+
+p {
+    font-size: 1.5em;
 }
 
 .header {
@@ -28,11 +38,7 @@ ul {
 }
 
 .flex-item {
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  font-size: 2em;
-  text-align: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
