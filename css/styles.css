@@ -16,6 +16,12 @@ li {
     padding: 5px;
 }
 
+li:hover {
+    color: rgba(94, 94, 94, 0.6);
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
 p {
     font-size: 1.5em;
 }
