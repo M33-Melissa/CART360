@@ -6,14 +6,14 @@ body {
     margin: 0;
 }
 
-ul {
+ul {    
     list-style: none;
-    padding: 0 10px;
-    text-align: left;
+    padding: 0 1em;
 }
 
 li {
-    padding: 5px;
+    padding: 10px;
+    font-size: 1.1em;
 }
 
 li:hover {
@@ -24,6 +24,12 @@ li:hover {
 
 p {
     font-size: 1.5em;
+    background: black;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid 5px darkslategray;
+    margin: 0em 0em auto;
 }
 
 .header {
@@ -34,16 +40,21 @@ p {
 }
 
 .flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-item {
-    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     padding: 0;
     margin: 0;
+    list-style: none;
+}
+
+.flex-item {    
+    text-align: center;
+    padding: 0;
+    margin: 1.5em 0em;
+    background: aliceblue;
+    width: 30%;
+    height: 30em;
+    min-width: 14em;
+    border-radius: 10px 10px 0px 0px;
 }
