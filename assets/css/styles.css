@@ -69,7 +69,7 @@ p {
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 0;
-    margin: 0;
+    margin: 3rem;
     list-style: none;
 }
 
@@ -88,5 +88,11 @@ p {
 }
 
 iframe {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
+}
+
+.back {
+    width: 5em;
+    margin: 2rem;
+    position: fixed;
 }
