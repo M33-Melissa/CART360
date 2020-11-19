@@ -78,8 +78,11 @@ p {
     padding: 0;
     margin: 1.5em 0em;
     background: aliceblue;
-    width: 30%;
     height: 25em;
     min-width: 14em;
     border-radius: 10px 10px 0px 0px;
+}
+
+.tier {
+    width: 30%;
 }
