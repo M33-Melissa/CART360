@@ -113,3 +113,7 @@ iframe {
 .underline {
     text-decoration: underline;
 }
+
+.circuit-img {
+    max-width: 58%;
+}
