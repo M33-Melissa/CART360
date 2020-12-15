@@ -115,5 +115,9 @@ iframe {
 }
 
 .circuit-img {
-    max-width: 58%;
+    max-width: 100%;
+}
+
+.demi {
+    width: 55%;
 }
