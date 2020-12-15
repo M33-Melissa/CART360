@@ -99,8 +99,9 @@ iframe {
 
 .panda-logo {
     position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: 3rem;
+    top: 3rem;
+    width: 8rem;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
     -o-transform: rotate(30deg);
