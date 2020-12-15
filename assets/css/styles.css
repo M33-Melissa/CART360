@@ -38,7 +38,7 @@ a:hover {
 .assignment-link {
     color: white;
     font-style: normal;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .assignment-link:hover {
